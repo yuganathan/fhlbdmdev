@@ -20,15 +20,15 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
         environment-url: 'https://org61732c43.crm.dynamics.com'
-        user-name: 'YuganathanS@M365x510324.onmicrosoft.com'
-        password-secret: ${{ secrets.password }}
+        user-name: 'AllanD@M365x510324.OnMicrosoft.com'
+        password-secret: ${{ secrets.password1 }}
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
         environment-url: 'https://org61732c43.crm.dynamics.com'
-        user-name: 'YuganathanS@M365x510324.onmicrosoft.com'
-        password-secret: ${{ secrets.password }}
+        user-name: 'AllanD@M365x510324.OnMicrosoft.com'
+        password-secret: ${{ secrets.password1 }}
         solution-name: ALMLab
         solution-output-file: out/exported/ALMLab.zip
 
